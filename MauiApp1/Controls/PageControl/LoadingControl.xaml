@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.Controls.PageControl.LoadingControl"
+             xmlns:fontAwosome="clr-namespace:MauiApp1.Helpers"
+             HorizontalOptions="FillAndExpand"
+             VerticalOptions="FillAndExpand">
+    <StackLayout BackgroundColor="{StaticResource TransparentBackgroundColor}"
+                 HorizontalOptions="FillAndExpand"
+                 VerticalOptions="FillAndExpand">
+        <Label x:Name="Loading"
+                   Text="{x:Static fontAwosome:FontAwesome.Spinner}"
+                   FontSize="80"
+                   TextColor="{StaticResource FOBlue}"
+                   FontFamily="FontAwesomeSolid"
+                   VerticalOptions="CenterAndExpand" 
+                   HorizontalOptions="CenterAndExpand" />
+
+    </StackLayout>
+</ContentView>

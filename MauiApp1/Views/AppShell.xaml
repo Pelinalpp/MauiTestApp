@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="MauiApp1.Views.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:MauiApp1.Views"
+    x:Name="FileOrbisAppShell"
+    Shell.TabBarIsVisible="False">
+
+    <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:LoginPage}"
+        Route="LoginPage"
+        Shell.FlyoutBehavior="Disabled"
+        FlyoutItemIsVisible="False" />
+
+    <FlyoutItem x:Name="flname" Route="FileSystemPage" FlyoutDisplayOptions="AsMultipleItems">
+        <!--<ShellContent Title="My Folders" ContentTemplate="{DataTemplate local:FileSystemPage}" />
+        <ShellContent Title="Public Network Folders" ContentTemplate="{DataTemplate local:FileSystemPage}" />
+        <ShellContent Title="Private Network Folders" ContentTemplate="{DataTemplate local:FileSystemPage}" />
+        <ShellContent Title="Team Folders" ContentTemplate="{DataTemplate local:FileSystemPage}" />
+        <ShellContent Title="Inbox" ContentTemplate="{DataTemplate local:FileSystemPage}" />
+        <ShellContent Title="My Shareds" ContentTemplate="{DataTemplate local:FileSystemPage}" />
+        <ShellContent Title="My Links" ContentTemplate="{DataTemplate local:MyLinksPage}" />
+        <ShellContent Title="Recycle" ContentTemplate="{DataTemplate local:RecyclePage}" />
+        <ShellContent Title="Notifications" ContentTemplate="{DataTemplate local:NotificationsPage}" />
+        <ShellContent Title="Downloads" ContentTemplate="{DataTemplate local:DownloadPage}" />
+        <ShellContent Title="My Settings" ContentTemplate="{DataTemplate local:MySettingsPage}" />-->
+    </FlyoutItem>
+
+    <Shell.FlyoutFooter>
+        <StackLayout Padding="20">
+            <Button Text="Sign Out" Command="{Binding SignOutCommand}" BackgroundColor="{StaticResource FOBlue}" />
+        </StackLayout>
+    </Shell.FlyoutFooter>
+
+</Shell>

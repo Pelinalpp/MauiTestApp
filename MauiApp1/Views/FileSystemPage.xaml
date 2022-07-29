@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.Views.FileSystemPage"
+             xmlns:fontAwosome="clr-namespace:MauiApp1.Helpers"
+             Title="{Binding Title}">
+
+    <!--<Shell.BackButtonBehavior>
+        <BackButtonBehavior IconOverride="menu.png"/>
+    </Shell.BackButtonBehavior>-->
+
+    <AbsoluteLayout>
+        <StackLayout AbsoluteLayout.LayoutBounds="0.0, 0.0, 1.0, 1.0"
+                     AbsoluteLayout.LayoutFlags="All">
+            <Label Text="{Binding FolderName}"
+                   Margin="50"
+                   VerticalOptions="Center" 
+                   HorizontalOptions="Center" />
+
+            <Button Text="Go Next Page" 
+                    BackgroundColor="{StaticResource FOBlue}"
+                    Command="{Binding GoNextPageCommand}"
+                    VerticalOptions="Center" 
+                    HorizontalOptions="Center" />
+        </StackLayout>
+        <StackLayout AbsoluteLayout.LayoutBounds="0.0, 0.0, 1.0, 1.0"
+                     AbsoluteLayout.LayoutFlags="All"
+                     IsVisible="{Binding IsLoading}"
+                     x:Name="LoadingWrapper" />
+
+    </AbsoluteLayout>
+
+</ContentPage>

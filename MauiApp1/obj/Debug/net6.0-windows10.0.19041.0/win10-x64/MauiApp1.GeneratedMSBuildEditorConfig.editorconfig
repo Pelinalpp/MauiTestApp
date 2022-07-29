@@ -1,0 +1,88 @@
+is_global = true
+build_property.TargetFramework = net6.0-windows10.0.19041.0
+build_property.TargetPlatformMinVersion = 10.0.17763.0
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 9A19103F-16F7-4668-BE54-9A1E7A4F7556
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = MauiApp1
+build_property.ProjectDir = C:\Users\Mobile-Pc-Pelin\Downloads\MauiApp1 (1)\MauiApp1\MauiApp1\
+
+[C:/Users/Mobile-Pc-Pelin/Downloads/MauiApp1 (1)/MauiApp1/MauiApp1/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/Mobile-Pc-Pelin/Downloads/MauiApp1 (1)/MauiApp1/MauiApp1/Controls/PageControl/LoadingControl.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.Controls.PageControl.LoadingControl.xaml
+build_metadata.AdditionalFiles.TargetPath = Controls\PageControl\LoadingControl.xaml
+build_metadata.AdditionalFiles.RelativePath = Controls\PageControl\LoadingControl.xaml
+
+[C:/Users/Mobile-Pc-Pelin/Downloads/MauiApp1 (1)/MauiApp1/MauiApp1/Controls/UserControl/FlyoutHeaderControl.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.Controls.UserControl.FlyoutHeaderControl.xaml
+build_metadata.AdditionalFiles.TargetPath = Controls\UserControl\FlyoutHeaderControl.xaml
+build_metadata.AdditionalFiles.RelativePath = Controls\UserControl\FlyoutHeaderControl.xaml
+
+[C:/Users/Mobile-Pc-Pelin/Downloads/MauiApp1 (1)/MauiApp1/MauiApp1/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/Mobile-Pc-Pelin/Downloads/MauiApp1 (1)/MauiApp1/MauiApp1/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/Mobile-Pc-Pelin/Downloads/MauiApp1 (1)/MauiApp1/MauiApp1/Views/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.Views.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\AppShell.xaml
+
+[C:/Users/Mobile-Pc-Pelin/Downloads/MauiApp1 (1)/MauiApp1/MauiApp1/Views/DownloadPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.Views.DownloadPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\DownloadPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\DownloadPage.xaml
+
+[C:/Users/Mobile-Pc-Pelin/Downloads/MauiApp1 (1)/MauiApp1/MauiApp1/Views/FileSystemPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.Views.FileSystemPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\FileSystemPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\FileSystemPage.xaml
+
+[C:/Users/Mobile-Pc-Pelin/Downloads/MauiApp1 (1)/MauiApp1/MauiApp1/Views/LoginPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.Views.LoginPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\LoginPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\LoginPage.xaml
+
+[C:/Users/Mobile-Pc-Pelin/Downloads/MauiApp1 (1)/MauiApp1/MauiApp1/Views/MyLinksPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.Views.MyLinksPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\MyLinksPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\MyLinksPage.xaml
+
+[C:/Users/Mobile-Pc-Pelin/Downloads/MauiApp1 (1)/MauiApp1/MauiApp1/Views/MySettingsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.Views.MySettingsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\MySettingsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\MySettingsPage.xaml
+
+[C:/Users/Mobile-Pc-Pelin/Downloads/MauiApp1 (1)/MauiApp1/MauiApp1/Views/NotificationsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.Views.NotificationsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\NotificationsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\NotificationsPage.xaml
+
+[C:/Users/Mobile-Pc-Pelin/Downloads/MauiApp1 (1)/MauiApp1/MauiApp1/Views/RecyclePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.Views.RecyclePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\RecyclePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\RecyclePage.xaml

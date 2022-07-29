@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.Views.LoginPage"
+             Title="Login Page"
+             Shell.NavBarIsVisible="False"
+             xmlns:custom="clr-namespace:MauiApp1.Customs;assembly=MauiApp1">
+    <AbsoluteLayout>
+        <Grid BackgroundColor="White"
+              AbsoluteLayout.LayoutBounds="0.0, 0.0, 1.0, 1.0"
+              AbsoluteLayout.LayoutFlags="All">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="50" />
+            </Grid.RowDefinitions>
+
+            <Grid RowSpacing="5" Grid.Row="0" Margin="20,100,20,0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="40" />
+                    <RowDefinition Height="40" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <Label Grid.Row="1" Text="Welcome!" HorizontalOptions="Center" FontSize="Title" FontAttributes="Bold" Padding="0" Margin="0" />
+                <Label Grid.Row="2" Text="Sign in to continue" HorizontalOptions="Center" FontSize="Subtitle" />
+
+                <StackLayout Grid.Row="3" Orientation="Vertical" HorizontalOptions="CenterAndExpand">
+                    <Frame BackgroundColor="Transparent" BorderColor="DarkGray" Padding="0" HorizontalOptions="FillAndExpand" CornerRadius="30">
+                        <StackLayout Orientation="Horizontal">
+                            <Frame BackgroundColor="{StaticResource FOBlue}" BorderColor="{StaticResource FOBlue}" HeightRequest="40" WidthRequest="40" CornerRadius="22" Padding="0" Margin="5">
+                                <Image Source="username.png" Aspect="AspectFill" HeightRequest="20" WidthRequest="20" Margin="0" />
+                            </Frame>
+                            <custom:CustomEntry Text="{Binding UserName}" Placeholder="Username" TextColor="Black" FontAttributes="Bold" VerticalOptions="Center" HorizontalOptions="FillAndExpand" Margin="0,0,20,0" />
+                        </StackLayout>
+                    </Frame>
+                    <Frame BackgroundColor="Transparent" BorderColor="DarkGray" Padding="0" Margin="0,15,0,0" HorizontalOptions="FillAndExpand" CornerRadius="30">
+                        <StackLayout Orientation="Horizontal">
+                            <Frame BackgroundColor="{StaticResource FOBlue}" BorderColor="{StaticResource FOBlue}" HeightRequest="40" WidthRequest="40" CornerRadius="22" Padding="0" Margin="5">
+                                <Image Source="password.png" Aspect="AspectFill" HeightRequest="20" WidthRequest="20" Margin="0" />
+                            </Frame>
+                            <custom:CustomEntry Text="{Binding Password}" Placeholder="Password" IsPassword="True" TextColor="Black" FontAttributes="Bold" VerticalOptions="Center" HorizontalOptions="FillAndExpand" Margin="0,0,20,0" />
+                        </StackLayout>
+                    </Frame>
+                    <Button Text="SIGN IN" BackgroundColor="{StaticResource FOBlue}" TextColor="White" FontAttributes="Bold" CornerRadius="20" WidthRequest="200" Margin="0,15,0,0" Command="{Binding LoginCommand}" />
+                </StackLayout>
+            </Grid>
+        </Grid>
+        <StackLayout AbsoluteLayout.LayoutBounds="0.0, 0.0, 1.0, 1.0"
+                     AbsoluteLayout.LayoutFlags="All"
+                     IsVisible="{Binding IsLoading}"
+                     x:Name="LoadingWrapper" />
+    </AbsoluteLayout>
+</ContentPage>
